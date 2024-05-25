@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #1A1C22;
+    font-size:16px;
+    font-family: "Montserrat", sans-serif;
+    color:white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+
+.navbar-items{
+    display: flex;
+    gap:30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item{
+    list-style: none;
+}
+
+#language{
+    background-color: transparent;
+    border:none;
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-btn > button,
+.hero-content > button {
+    padding: 9px 28px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #BC0E19, #DB202C);
+    border:none;
+    box-shadow: 0 5px 25px 0 rgba(192, 30,41, 0.5);
+    color:white
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.hero > img {
+    width: 35vw;
+}
+
+.hero-content >h1{
+    font-family: "Volkhov", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.hero-content>p{
+    margin: 20px 0;
+}
